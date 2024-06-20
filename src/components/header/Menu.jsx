@@ -2,7 +2,7 @@ function Menu() {
   return (
     <>
       <li>
-        <button role="link" className="menu-list">
+        <button role="link" className="menu-list ">
           Skills
         </button>
       </li>
