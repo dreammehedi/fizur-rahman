@@ -12,12 +12,12 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#8750f7",
+        primary: "#0369a1",
         "main-bg": "#f6f3fc",
         "ring-color": "#f3effa",
       },
       backgroundImage: {
-        "gradient-main-bg": `linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(135,80,208,1) 35%, rgba(0,0,15,1) 100%)`,
+        "gradient-main-bg": `linear-gradient(90deg, rgba(3,105,161,1) 0%, rgba(3,112,161,1) 29%, rgba(3,17,161,1) 66%, rgba(3,99,161,1) 100%)`,
       },
     },
   },
