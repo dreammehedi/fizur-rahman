@@ -6,7 +6,7 @@ function Hero() {
   return (
     <>
       {/* hero */}
-      <section className="my-1">
+      <section className="my-1 py-4 md:py-6">
         <div className="container grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 bg-main-bg p-6 md:p-8 lg:p-12 rounded-xl ring-1 ring-[#f3effa] items-center">
           <img
             className="w-full max-w-[350px] rounded-xl object-cover"
