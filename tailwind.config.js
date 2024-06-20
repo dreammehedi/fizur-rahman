@@ -14,6 +14,7 @@ export default {
       colors: {
         primary: "#8750f7",
         "main-bg": "#f6f3fc",
+        "ring-color": "#f3effa",
       },
       backgroundImage: {
         "gradient-main-bg": `linear-gradient(90deg, rgba(135,80,247,1) 0%, rgba(135,80,208,1) 35%, rgba(0,0,15,1) 100%)`,
