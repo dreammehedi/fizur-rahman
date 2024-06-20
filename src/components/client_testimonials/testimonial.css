@@ -1,0 +1,9 @@
+.swiper-pagination {
+  margin-top: 30px !important;
+  position: inherit;
+}
+.swiper-pagination-bullet {
+  background-color: #8750f7 !important;
+  width: 12px !important;
+  height: 12px !important;
+}

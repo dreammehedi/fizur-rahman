@@ -3,7 +3,7 @@ function EducationCourses() {
     <>
       <section className="py-4 md:py-6">
         <div className="container w-full md:max-w-5xl md:mx-auto">
-          <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold">
+          <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Education & Courses
           </h2>
           <div className="mt-6 md:mt-8 rounded-xl ring-1 ring-ring-color p-4 md:p-6 bg-main-bg grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">

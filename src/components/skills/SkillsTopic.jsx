@@ -4,7 +4,7 @@ function SkillsTopic() {
     <>
       <section className="py-8 md:py-10 lg:py-12">
         <div className="container grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6 ">
-          {skillsTopicData.map((skill, ind) => {
+          {skillsTopicData?.map((skill, ind) => {
             return (
               <div
                 key={ind}

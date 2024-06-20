@@ -27,7 +27,7 @@ function FunFact() {
     <>
       <section className="py-4 md:py-6">
         <div className="container grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 bg-main-bg p-4 rounded-xl gap-4 md:gap-6 ring-1 ring-ring-color">
-          {funFactData.map((funFact, ind) => {
+          {funFactData?.map((funFact, ind) => {
             const IconComponent = Icons[funFact?.icon];
             return (
               <div
