@@ -16,4 +16,7 @@
   .project-tech-btn {
     @apply relative z-0 h-10 overflow-hidden overflow-x-hidden rounded-full bg-primary/20 hover:shadow-lg ring-1 ring-primary px-6 py-2 text-primary;
   }
+  .mydot::before {
+    @apply content-[''] rounded-full size-5 bg-primary absolute top-[0px] -left-[34px] z-[888];
+  }
 }

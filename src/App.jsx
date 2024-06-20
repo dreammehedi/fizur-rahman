@@ -1,3 +1,4 @@
+import EducationCourses from "./components/education_courses/EducationCourses";
 import Footer from "./components/footer/Footer";
 import FunFact from "./components/fun_fact/FunFact";
 import Header from "./components/header/Header";
@@ -13,6 +14,7 @@ function App() {
       <FunFact></FunFact>
       <Skills></Skills>
       <RecentProject></RecentProject>
+      <EducationCourses></EducationCourses>
       <Footer></Footer>
     </>
   );
