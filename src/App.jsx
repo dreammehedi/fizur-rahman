@@ -1,4 +1,5 @@
 import ClientTestimonials from "./components/client_testimonials/ClientTestimonials";
+import Contact from "./components/contact/Contact";
 import EducationCourses from "./components/education_courses/EducationCourses";
 import Footer from "./components/footer/Footer";
 import FunFact from "./components/fun_fact/FunFact";
@@ -17,6 +18,7 @@ function App() {
       <RecentProject></RecentProject>
       <EducationCourses></EducationCourses>
       <ClientTestimonials></ClientTestimonials>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );
