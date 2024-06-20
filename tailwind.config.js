@@ -6,6 +6,7 @@ export default {
       center: true,
       padding: "1.5rem",
     },
+
     fontFamily: {
       sora: ["Sora", "sans-serif"],
     },
