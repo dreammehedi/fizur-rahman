@@ -9,7 +9,11 @@ export default {
     fontFamily: {
       sora: ["Sora", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#8750f7",
+      },
+    },
   },
   plugins: [],
 };

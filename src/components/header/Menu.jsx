@@ -2,50 +2,32 @@ function Menu() {
   return (
     <>
       <li>
-        <button
-          role="link"
-          className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
-        >
+        <button role="link" className="menu-list">
           Skills
         </button>
       </li>
       <li>
-        <button
-          role="link"
-          className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
-        >
+        <button role="link" className="menu-list">
           Projects
         </button>
       </li>
       <li>
-        <button
-          role="link"
-          className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
-        >
+        <button role="link" className="menu-list">
           Resume
         </button>
       </li>
       <li>
-        <button
-          role="link"
-          className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
-        >
+        <button role="link" className="menu-list">
           Works
         </button>
       </li>
       <li>
-        <button
-          role="link"
-          className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
-        >
+        <button role="link" className="menu-list">
           Testimonials
         </button>
       </li>
       <li>
-        <button
-          role="link"
-          className="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-800 after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
-        >
+        <button role="link" className="menu-list">
           Contact
         </button>
       </li>

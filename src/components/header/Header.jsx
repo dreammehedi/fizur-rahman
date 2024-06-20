@@ -13,13 +13,13 @@ function Header() {
 
           {/* desktop menu */}
           <ul
-            className={`flex justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-[#185a54]`}
+            className={`flex justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-[#2a1454] text-[15px]`}
           >
             <Menu></Menu>
           </ul>
 
           {/* resume button */}
-          <button className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md bg-cyan-700 px-6 font-medium text-neutral-200">
+          <button className="resume-btn group">
             <span>Resume</span>
             <div className="ml-1 transition group-hover:translate-x-1">
               <svg
