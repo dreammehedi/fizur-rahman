@@ -32,7 +32,7 @@ function FunFact() {
             return (
               <div
                 key={ind}
-                className="p-6 flex flex-col justify-center items-center space-y-3"
+                className="p-6 flex flex-col justify-center items-center text-center space-y-3"
               >
                 <IconComponent className="text-4xl text-primary"></IconComponent>
                 <big className="text-primary text-4xl lg:text-[46px] font-semibold">
