@@ -14,7 +14,7 @@ function Header() {
         {/* navbar */}
         <nav className="container py-4 md:py-6 lg:py-8 flex justify-between items-center gap-4">
           {/* logo */}
-          <Logo></Logo>
+          <Logo cls={"hidden md:inline-block"}></Logo>
 
           {/* desktop menu */}
           <ul
@@ -27,7 +27,7 @@ function Header() {
             <ul
               className={`${
                 menu ? "top-[80px]" : "-top-full"
-              } rounded-xl lg:hidden bg-primary z-[9999] w-full h-[calc(100vh-80px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
+              } rounded-xl lg:hidden bg-primary z-[99999] w-full h-[calc(100vh-80px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
             >
               <Menu></Menu>
             </ul>

@@ -1,3 +1,4 @@
+import ClickToTop from "./components/click_to_top/ClickToTop";
 import ClientTestimonials from "./components/client_testimonials/ClientTestimonials";
 import Contact from "./components/contact/Contact";
 import EducationCourses from "./components/education_courses/EducationCourses";
@@ -20,6 +21,7 @@ function App() {
       <ClientTestimonials></ClientTestimonials>
       <Contact></Contact>
       <Footer></Footer>
+      <ClickToTop></ClickToTop>
     </>
   );
 }
