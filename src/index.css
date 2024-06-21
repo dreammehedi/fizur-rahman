@@ -3,6 +3,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply text-gray-700;
+  }
+}
 @layer components {
   .my-transition {
     @apply transition-all duration-300 ease-linear;

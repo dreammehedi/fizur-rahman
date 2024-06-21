@@ -32,9 +32,7 @@ function ClientTestimonials() {
                   key={ind}
                   className="rounded-xl p-6 md:p-8 ring-1 ring-ring-color bg-white space-y-6 md:space-y-8"
                 >
-                  <p className="font-medium text-gray-700">
-                    {testimonial?.feedback}
-                  </p>
+                  <p className="font-medium">{testimonial?.feedback}</p>
                   <div className="flex items-center gap-3">
                     <a href="" target="_blank">
                       <img

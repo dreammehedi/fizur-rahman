@@ -29,7 +29,7 @@ function Contact() {
                 <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl font-semibold text-left">
                   {`Let’s work together!`}
                 </h2>
-                <p className="w-full md:max-w-md text-gray-500">
+                <p className="w-full md:max-w-md">
                   I design and code beautifully simple things, and I love what I
                   do. Just simple like that!
                 </p>

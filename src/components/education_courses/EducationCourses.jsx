@@ -20,7 +20,7 @@ function EducationCourses() {
                   <h5 className="text-[18px] text-gray-800">
                     Arfan Khan Memorial College, Lowhati
                   </h5>
-                  <p className="text-sm text-gray-600">2020 - 2021</p>
+                  <p className="text-sm">2020 - 2021</p>
                   <span className="text-sm text-gray-500">GPA: 3.92</span>
                 </div>
               </div>
@@ -32,7 +32,7 @@ function EducationCourses() {
                   <h5 className="text-[18px] text-gray-800">
                     Fatepur M.H. High School
                   </h5>
-                  <p className="text-sm text-gray-500">2018 - 2019</p>
+                  <p className="text-sm">2018 - 2019</p>
                   <span className="text-sm text-gray-500">GPA: 4.06</span>
                 </div>
               </div>
@@ -50,9 +50,7 @@ function EducationCourses() {
                   <h5 className="text-[18px] text-gray-800">
                     Programming Hero
                   </h5>
-                  <p className="text-sm text-gray-600">
-                    January 2023 - Present
-                  </p>
+                  <p className="text-sm">January 2023 - Present</p>
                 </div>
               </div>
             </div>
