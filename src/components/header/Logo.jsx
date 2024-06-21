@@ -1,8 +1,15 @@
 function Logo() {
   return (
-    <h4 className="font-bold text-[18px] md:text-xl lg:text-2xl my-transition text-primary cursor-pointer">
-      Mehedi Hassan
-    </h4>
+    <a href="/">
+      <h4 className="font-bold text-xl lg:text-2xl my-transition text-primary cursor-pointer flex items-center gap-2 ">
+        <img
+          className="w-20 h-auto object-cover rounded-full"
+          src="https://i.ibb.co/z4GdkLQ/mehedi-logo.png"
+          alt=""
+        />
+        Mehedi Hassan
+      </h4>
+    </a>
   );
 }
 
