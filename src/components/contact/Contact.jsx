@@ -1,4 +1,7 @@
 import { useForm } from "react-hook-form";
+import { FaPhone } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { IoLocation } from "react-icons/io5";
 import ContactBtn from "../button/ContactBtn";
 import SocialIcon from "../social/SocialIcon";
 
@@ -20,7 +23,7 @@ function Contact() {
           <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Contact Me
           </h2>
-          <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6 items-center">
+          <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6">
             <form
               onSubmit={handleSubmit(onContact)}
               className="col-span-3 bg-main-bg rounded-xl p-4 md:p-6 flex flex-col space-y-3"
@@ -122,9 +125,15 @@ function Contact() {
                 {`I'm currently available to take on new projects, so feel free to send me a message about anything you'd like to discuss. You can contact me anytime, 24/7.`}
               </p>
               <div className="mt-8 flex flex-col space-y-2">
-                <strong>dreammehedihassan@gmail.com</strong>
-                <strong>+8801830143234</strong>
-                <span className="font-normal">
+                <span className="flex my-transition hover:text-primary  items-center gap-2">
+                  <IoIosMail className="text-xl"></IoIosMail>{" "}
+                  dreammehedihassan@gmail.com
+                </span>
+                <span className="flex my-transition hover:text-primary  items-center gap-2">
+                  <FaPhone className="text-xl"></FaPhone> +8801830143234
+                </span>
+                <span className="flex my-transition hover:text-primary items-center gap-2 ">
+                  <IoLocation className="text-xl"></IoLocation>
                   Mirzapur, Tangail <br />
                   Dhaka, Bangladesh
                 </span>
