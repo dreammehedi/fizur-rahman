@@ -6,7 +6,7 @@ function ProjectItems() {
   return (
     <>
       <section className="py-8 md:py-10 lg:py-12">
-        <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div className="container grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           <div className="bg-main-bg p-6 rounded-xl space-y-3 ring-1 ring-ring-color">
             <img
               className="w-full h-[400px] object-fill"
