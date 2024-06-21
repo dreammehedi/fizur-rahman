@@ -15,14 +15,11 @@ function ClientTestimonials() {
           </h2>
           <Swiper
             breakpoints={{
-              576: {
-                slidesPerView: 1,
-              },
               1024: {
                 slidesPerView: 2,
               },
             }}
-            slidesPerView={2}
+            slidesPerView={1}
             spaceBetween={30}
             autoplay={{
               delay: 2500,
