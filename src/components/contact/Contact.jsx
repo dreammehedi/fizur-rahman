@@ -1,7 +1,9 @@
+import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { FaPhone } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
+import Swal from "sweetalert2";
 import ContactBtn from "../button/ContactBtn";
 import SocialIcon from "../social/SocialIcon";
 
@@ -9,13 +11,45 @@ function Contact() {
   const {
     handleSubmit,
     register,
+    reset,
     formState: { errors },
   } = useForm();
 
   //   hanlde contact form
   const onContact = (data) => {
-    console.log(data);
+    const templateParams = {
+      firstName: data.firstName,
+      lastName: data.lastName,
+      email: data.email,
+      phoneNumber: data.phoneNumber,
+      message: data.message,
+    };
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          reset();
+          Swal.fire({
+            title: "Thank you for contacting me!",
+            icon: "success",
+            timer: 1000,
+          });
+        },
+        () => {
+          Swal.fire({
+            title: "Something went wrong!",
+            icon: "error",
+            timer: 1000,
+          });
+        }
+      );
   };
+
   return (
     <>
       <section className="py-4 md:py-6">
