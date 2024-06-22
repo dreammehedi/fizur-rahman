@@ -51,7 +51,7 @@ function Header() {
             <ul
               className={`${
                 menu ? "top-[64px]" : "-top-full"
-              } rounded-xl lg:hidden bg-primary z-[99999] w-full h-[calc(100vh-64px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
+              } rounded-xl lg:hidden bg-primary dark:bg-gray-900 z-[99999] w-full h-[calc(100vh-64px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
             >
               <Menu setMenu={setMenu}></Menu>
               {/* resume button */}
