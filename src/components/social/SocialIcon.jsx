@@ -1,50 +1,29 @@
 import PropTypes from "prop-types";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import * as socialIconItem from "react-icons/fa";
+import SocialIconItems from "./SocialIconItems";
 function SocialIcon({ cls, size }) {
   return (
     <>
-      <a
-        title="Facebook"
-        href="https://www.facebook.com/profile.php?id=61554869056271"
-        target="_blank"
-        className="my-transition group-hover:rotate-[360deg]"
-      >
-        <button
-          className={`${cls} group relative inline-flex ${size} size-12 items-center justify-center overflow-hidden rounded-full my-transition ring-1 ring-primary hover:bg-primary hover:animate-pulse`}
-        >
-          <FaFacebook
-            className={`${cls} text-xl text-primary group-hover:text-white `}
-          ></FaFacebook>
-        </button>
-      </a>
-      <a
-        title="Facebook"
-        href="https://www.linkedin.com/in/mehedi-hassan-miraj"
-        target="_blank"
-        className="my-transition group-hover:rotate-[360deg]"
-      >
-        <button
-          className={`${cls} group relative inline-flex ${size} size-12 items-center justify-center overflow-hidden rounded-full my-transition ring-1 ring-primary hover:bg-primary hover:animate-pulse`}
-        >
-          <FaLinkedin
-            className={`${cls} text-xl text-primary group-hover:text-white `}
-          ></FaLinkedin>
-        </button>
-      </a>
-      <a
-        title="Facebook"
-        href="https://github.com/dreammehedi"
-        target="_blank"
-        className="my-transition group-hover:rotate-[360deg]"
-      >
-        <button
-          className={`${cls} group relative inline-flex ${size} size-12 items-center justify-center overflow-hidden rounded-full my-transition ring-1 ring-primary hover:bg-primary hover:animate-pulse`}
-        >
-          <FaGithub
-            className={`${cls} text-xl text-primary group-hover:text-white `}
-          ></FaGithub>
-        </button>
-      </a>
+      {SocialIconItems.map((socialIcon, ind) => {
+        const IconComponent = socialIconItem[socialIcon?.icon];
+        return (
+          <a
+            key={ind}
+            title={socialIcon?.title}
+            href={socialIcon?.url}
+            target="_blank"
+            className="my-transition group-hover:rotate-[360deg]"
+          >
+            <button
+              className={`${cls} group relative inline-flex ${size} size-12 items-center justify-center overflow-hidden rounded-full my-transition ring-1 ring-primary dark:ring-white hover:bg-primary hover:animate-pulse`}
+            >
+              <IconComponent
+                className={`${cls} text-xl text-primary dark:text-white group-hover:text-white `}
+              ></IconComponent>
+            </button>
+          </a>
+        );
+      })}
     </>
   );
 }

@@ -5,7 +5,7 @@ function HireMeBtn() {
         href="https://www.linkedin.com/in/mehedi-hassan-miraj/"
         target="_blank"
       >
-        <button className="group relative inline-flex h-12 items-center justify-center rounded-full bg-primary px-6 font-medium text-neutral-200 hover:animate-pulse ">
+        <button className="group relative inline-flex h-12 items-center justify-center rounded-full bg-primary dark:bg-white dark:text-primary px-6 font-medium text-neutral-200 hover:animate-pulse ">
           <span>Hire Me</span>
           <div className="relative ml-1 h-5 w-5 overflow-hidden group-hover:animate-bounce">
             <div className="absolute transition-all duration-200 group-hover:-translate-y-5 group-hover:translate-x-4">
