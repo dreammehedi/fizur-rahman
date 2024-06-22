@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { RiMenu3Line } from "react-icons/ri";
 import ResumeBtn from "../button/ResumeBtn";
@@ -7,12 +7,35 @@ import Menu from "./Menu";
 
 function Header() {
   const [menu, setMenu] = useState(false);
+  const [sticky, setSticky] = useState(false);
+  useEffect(() => {
+    const stickyHeaderFn = () => {
+      if (window.scrollY > 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", stickyHeaderFn);
+    return () => {
+      window.removeEventListener("scroll", stickyHeaderFn);
+    };
+  }, []);
   return (
     <>
       {/* header */}
-      <header className="w-full sticky top-0 z-[999] bg-white">
+      <header
+        className={`w-full ${
+          sticky && "sticky top-0 shadow-lg shadow-primary/30"
+        } z-[999] bg-white my-transition`}
+      >
         {/* navbar */}
-        <nav className="container py-4 md:py-6 lg:py-8 flex justify-between items-center gap-4">
+        <nav
+          className={`container ${
+            sticky ? "py-3 lg:py-6" : "py-4 md:py-6 lg:py-8"
+          }  flex justify-between items-center gap-4`}
+        >
           {/* logo */}
           <Logo cls={"hidden md:inline-block"}></Logo>
 
@@ -26,8 +49,8 @@ function Header() {
           {menu && (
             <ul
               className={`${
-                menu ? "top-[80px]" : "-top-full"
-              } rounded-xl lg:hidden bg-primary z-[99999] w-full h-[calc(100vh-80px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
+                menu ? "top-[68px]" : "-top-full"
+              } rounded-xl lg:hidden bg-primary z-[99999] w-full h-[calc(100vh-68px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
             >
               <Menu></Menu>
             </ul>

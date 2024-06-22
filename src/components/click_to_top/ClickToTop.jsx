@@ -13,7 +13,7 @@ function ClickToTop() {
         }
       });
     };
-    toggleClickToTopFn();
+    window.addEventListener("scroll", toggleClickToTopFn());
     return () => {
       window.removeEventListener("scroll", toggleClickToTopFn());
     };
