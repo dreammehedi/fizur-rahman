@@ -40,7 +40,7 @@ function Contact() {
               <div className="flex flex-col space-y-1">
                 <input
                   {...register("firstName", { required: true })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10"
+                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="text"
                   placeholder="First Name..."
                 />
@@ -53,7 +53,7 @@ function Contact() {
               <div className="flex flex-col space-y-1">
                 <input
                   {...register("lastName", { required: true })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10"
+                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="text"
                   placeholder="Last Name..."
                 />
@@ -66,7 +66,7 @@ function Contact() {
               <div className="flex flex-col space-y-1">
                 <input
                   {...register("email", { required: true })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10"
+                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="text"
                   placeholder="Email Address..."
                 />
@@ -83,7 +83,7 @@ function Contact() {
                     minLength: 11,
                     maxLength: 13,
                   })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10"
+                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="number"
                   placeholder="Phone Number..."
                 />
@@ -107,7 +107,7 @@ function Contact() {
                 <textarea
                   {...register("message", { required: true })}
                   rows={5}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10"
+                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   placeholder="Message..."
                   name="message"
                   id="message"
