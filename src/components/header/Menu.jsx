@@ -11,11 +11,7 @@ function Menu() {
           Projects
         </button>
       </li>
-      <li>
-        <button role="link" className="menu-list">
-          Resume
-        </button>
-      </li>
+
       <li>
         <button role="link" className="menu-list">
           Works

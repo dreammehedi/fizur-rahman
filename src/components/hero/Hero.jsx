@@ -2,6 +2,7 @@ import Tilt from "react-parallax-tilt";
 import { TypeAnimation } from "react-type-animation";
 import heroImg from "../../assets/mehedi.jpg";
 import HireMeBtn from "../button/HireMeBtn";
+import HeroParticles from "../hero_particles/HeroParticles";
 import SocialIcon from "../social/SocialIcon";
 
 function Hero() {
@@ -9,6 +10,7 @@ function Hero() {
     <>
       {/* hero */}
       <section className="my-1 py-4 md:py-6">
+        <HeroParticles></HeroParticles>
         <div className="container grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 bg-main-bg dark:bg-gray-900 p-6 md:p-8 lg:p-12 rounded-xl ring-1 ring-ring-color dark:ring-gray-800 md:justify-center md:text-center lg:justify-normal lg:text-left items-center overflow-hidden">
           <Tilt perspective={800} glareMaxOpacity={0.55} scale={1.03}>
             <img
