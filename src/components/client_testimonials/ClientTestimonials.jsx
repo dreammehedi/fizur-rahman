@@ -8,7 +8,7 @@ import "./testimonial.css";
 function ClientTestimonials() {
   return (
     <>
-      <section className="py-4 md:py-6 bg-main-bg">
+      <section className="py-4 md:py-6 bg-main-bg dark:bg-gray-900">
         <div className="container w-full">
           <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Client Testimonials
@@ -35,7 +35,7 @@ function ClientTestimonials() {
               return (
                 <SwiperSlide
                   key={ind}
-                  className="rounded-xl p-6 md:p-8 ring-1 ring-ring-color bg-white space-y-6 md:space-y-8 my-transition hover:ring-primary/30 hover:shadow-lg hover:shadow-primary/30 group hover:cursor-pointer"
+                  className="rounded-xl p-6 md:p-8 ring-1 ring-ring-color bg-white dark:bg-gray-800/70 dark:ring-gray-800 space-y-6 md:space-y-8 my-transition hover:ring-primary/30 hover:shadow-lg hover:shadow-primary/30 group hover:cursor-pointer dark:text-white"
                 >
                   <p className="font-medium">{testimonial?.feedback}</p>
                   <div className="flex items-center gap-3">
