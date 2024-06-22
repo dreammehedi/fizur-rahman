@@ -9,15 +9,10 @@ function Hero() {
     <>
       {/* hero */}
       <section className="my-1 pb-4 md:pb-6">
-        <div className="container grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 bg-main-bg p-6 md:p-8 lg:p-12 rounded-xl ring-1 ring-ring-color md:justify-center md:text-center lg:justify-normal lg:text-left items-center">
-          <Tilt
-            perspective={600}
-            glareEnable={true}
-            glareMaxOpacity={0.55}
-            scale={1.03}
-          >
+        <div className="container grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 bg-main-bg p-6 md:p-8 lg:p-12 rounded-xl ring-1 ring-ring-color md:justify-center md:text-center lg:justify-normal lg:text-left items-center overflow-hidden">
+          <Tilt perspective={800} glareMaxOpacity={0.55} scale={1.03}>
             <img
-              className="cursor-pointer w-full h-auto md:max-w-[350px] md:h-[350px] md:mx-auto lg:h-auto lg:mx-0 rounded-xl md:rounded-full lg:rounded-xl object-cover"
+              className="overflow-hidden cursor-pointer w-full h-auto md:max-w-[350px] md:h-[350px] md:mx-auto lg:h-auto lg:mx-0 rounded-xl md:rounded-full lg:rounded-xl object-cover"
               src={heroImg}
               alt=""
             />
