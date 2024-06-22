@@ -3,7 +3,7 @@ import educationData from "./EducationData";
 function EducationCourses() {
   return (
     <>
-      <section className="py-4 md:py-6">
+      <section id="works" className="py-4 md:py-6">
         <div className="container w-full md:max-w-5xl md:mx-auto">
           <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Education & Courses

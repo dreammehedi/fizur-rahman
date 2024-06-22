@@ -52,7 +52,7 @@ function Contact() {
 
   return (
     <>
-      <section className="py-4 md:py-6">
+      <section id="contact" className="py-4 md:py-6">
         <div className="container">
           <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Contact Me

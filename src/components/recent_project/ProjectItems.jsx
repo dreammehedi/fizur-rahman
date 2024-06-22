@@ -4,7 +4,7 @@ import projectItemsData from "./ProjectItemsData";
 function ProjectItems() {
   return (
     <>
-      <section className="py-8 md:py-10 lg:py-12">
+      <section id="projects" className="py-8 md:py-10 lg:py-12">
         <div className="container grid grid-cols-1 gap-4 md:gap-6 overflow-hidden">
           {projectItemsData.map((projectItem, ind) => {
             return (

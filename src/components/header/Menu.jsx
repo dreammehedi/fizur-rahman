@@ -1,34 +1,31 @@
-function Menu() {
+import PropTypes from "prop-types";
+import menuItems from "./MenuItems";
+
+function Menu({ setMenu }) {
   return (
     <>
-      <li>
-        <button role="link" className="menu-list ">
-          Skills
-        </button>
-      </li>
-      <li>
-        <button role="link" className="menu-list">
-          Projects
-        </button>
-      </li>
-
-      <li>
-        <button role="link" className="menu-list">
-          Works
-        </button>
-      </li>
-      <li>
-        <button role="link" className="menu-list">
-          Testimonials
-        </button>
-      </li>
-      <li>
-        <button role="link" className="menu-list">
-          Contact
-        </button>
-      </li>
+      {menuItems.map((menuItem, ind) => {
+        return (
+          <li
+            onClick={() => {
+              if (setMenu) {
+                setMenu(false);
+              }
+            }}
+            key={ind}
+          >
+            <a href={menuItem?.id}>
+              <button role="link" className="menu-list ">
+                {menuItem?.name}
+              </button>
+            </a>
+          </li>
+        );
+      })}
     </>
   );
 }
-
+Menu.propTypes = {
+  setMenu: PropTypes.func,
+};
 export default Menu;

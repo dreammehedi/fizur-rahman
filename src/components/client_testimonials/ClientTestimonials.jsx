@@ -8,7 +8,10 @@ import "./testimonial.css";
 function ClientTestimonials() {
   return (
     <>
-      <section className="py-4 md:py-6 bg-main-bg dark:bg-gray-900">
+      <section
+        id="testimonials"
+        className="py-4 md:py-6 bg-main-bg dark:bg-gray-900"
+      >
         <div className="container w-full">
           <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
             Client Testimonials

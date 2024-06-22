@@ -53,7 +53,7 @@ function Header() {
                 menu ? "top-[64px]" : "-top-full"
               } rounded-xl lg:hidden bg-primary z-[99999] w-full h-[calc(100vh-64px)] fixed my-transiion left-0 flex flex-col justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-white *:hover:text-white`}
             >
-              <Menu></Menu>
+              <Menu setMenu={setMenu}></Menu>
               {/* resume button */}
               <a
                 href="https://drive.google.com/file/d/1skAkbb5Wd4xI-hogB5nupKO_z8FLUVK3/view?usp=drive_link"
