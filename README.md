@@ -1,6 +1,6 @@
 # Mehedi Hassan Portfolio
 
-([https://mehedihassan.vercel.app/])
+[https://mehedihassan.vercel.app/]
 
 Welcome to my personal portfolio website! This is where I showcase my skills, projects, and experience as a junior front-end developer.
 
@@ -30,6 +30,8 @@ This portfolio website is a demonstration of my abilities in front-end developme
 
 ## Contact Me
 
-- dreammehedihassan@gmail.com
-- 01830143234
-- Mirzapur, Tangail, Dhaka, Bangladesh
+Email: dreammehedihassan@gmail.com
+
+Phone: 01830143234
+
+Address: Mirzapur, Tangail, Dhaka, Bangladesh
