@@ -60,7 +60,7 @@ function Contact() {
           <div className="mt-6 md:mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6">
             <form
               onSubmit={handleSubmit(onContact)}
-              className="col-span-3 bg-main-bg rounded-xl p-4 md:p-6 flex flex-col space-y-3"
+              className="col-span-3 bg-main-bg dark:bg-gray-900 rounded-xl p-4 md:p-6 flex flex-col space-y-3"
             >
               <div className="mb-4">
                 <h2 className="bg-gradient-main-bg text-transparent bg-clip-text text-2xl font-semibold text-left">
@@ -74,7 +74,7 @@ function Contact() {
               <div className="flex flex-col space-y-1">
                 <input
                   {...register("firstName", { required: true })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
+                  className="bg-transparent dark:text-white px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="text"
                   placeholder="First Name..."
                 />
@@ -87,7 +87,7 @@ function Contact() {
               <div className="flex flex-col space-y-1">
                 <input
                   {...register("lastName", { required: true })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
+                  className="bg-transparent dark:text-white px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="text"
                   placeholder="Last Name..."
                 />
@@ -100,7 +100,7 @@ function Contact() {
               <div className="flex flex-col space-y-1">
                 <input
                   {...register("email", { required: true })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
+                  className="bg-transparent dark:text-white px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="text"
                   placeholder="Email Address..."
                 />
@@ -117,7 +117,7 @@ function Contact() {
                     minLength: 11,
                     maxLength: 13,
                   })}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
+                  className="bg-transparent dark:text-white px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   type="number"
                   placeholder="Phone Number..."
                 />
@@ -141,7 +141,7 @@ function Contact() {
                 <textarea
                   {...register("message", { required: true })}
                   rows={5}
-                  className="bg-transparent px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
+                  className="bg-transparent dark:text-white px-4 py-2 outline-none ring-1 ring-primary/30 rounded-xl mb-2 focus:bg-primary/10 focus:placeholder:text-[12px] focus:placeholder:text-primary"
                   placeholder="Message..."
                   name="message"
                   id="message"
@@ -159,14 +159,14 @@ function Contact() {
                 {`I'm currently available to take on new projects, so feel free to send me a message about anything you'd like to discuss. You can contact me anytime, 24/7.`}
               </p>
               <div className="mt-8 flex flex-col space-y-2">
-                <span className="flex my-transition hover:text-primary  items-center gap-2">
+                <span className="flex my-transition dark:text-white dark:hover:text-primary hover:text-primary  items-center gap-2">
                   <IoIosMail className="text-xl"></IoIosMail>{" "}
                   dreammehedihassan@gmail.com
                 </span>
-                <span className="flex my-transition hover:text-primary  items-center gap-2">
+                <span className="flex my-transition dark:text-white dark:hover:text-primary hover:text-primary  items-center gap-2">
                   <FaPhone className="text-xl"></FaPhone> +8801830143234
                 </span>
-                <span className="flex my-transition hover:text-primary items-center gap-2 ">
+                <span className="flex my-transition dark:text-white dark:hover:text-primary hover:text-primary items-center gap-2 ">
                   <IoLocation className="text-xl"></IoLocation>
                   Mirzapur, Tangail <br />
                   Dhaka, Bangladesh
