@@ -28,7 +28,7 @@ function ClickToTop() {
               behavior: "smooth",
             });
           }}
-          className="fixed right-10 bottom-10 z-[888] bg-primary rounded-full p-4 text-white shadow-sm shadow-white animate-pulse cursor-pointer hover:ring-1 hover:ring-primary"
+          className="fixed right-10 bottom-10 z-[888] bg-primary rounded-full p-4 text-white shadow-sm shadow-white animate-pulse cursor-pointer hover:ring-1 hover:ring-primary dark:bg-white dark:text-primary"
         >
           <FaArrowUp></FaArrowUp>
         </div>
