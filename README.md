@@ -26,6 +26,8 @@ This portfolio website is a demonstration of my abilities in front-end developme
 - **React Parallax Tilt**
 - **React Icons**
 - **React Hook Form**
+- **tsparticles react**
+- **tsparticles slim**
 - **SweetAlert2**
 
 ## Contact Me
