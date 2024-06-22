@@ -1,4 +1,5 @@
 import Tilt from "react-parallax-tilt";
+import { TypeAnimation } from "react-type-animation";
 import heroImg from "../../assets/mehedi.jpg";
 import HireMeBtn from "../button/HireMeBtn";
 import SocialIcon from "../social/SocialIcon";
@@ -22,8 +23,24 @@ function Hero() {
             />
           </Tilt>
           <div className="lg:col-span-2 space-y-3">
-            <h1 className="bg-gradient-main-bg font-semibold text-3xl md:text-4xl lg:text-[55px] lg:leading-[75px] lg:mr-[1.5rem] !text-transparent !bg-clip-text">
-              Hi, I am Mehedi Hassan - Web Designer + Junior Web Developer
+            <h1 className="bg-gradient-main-bg font-semibold text-3xl md:text-4xl lg:text-[55px] lg:leading-[75px] lg:mr-[1.5rem] !text-transparent !bg-clip-text break-words text-wrap">
+              <TypeAnimation
+                preRenderFirstString={true}
+                sequence={[
+                  "Hi, I'm Mehedi Hassan - ",
+                  300,
+                  "Hi, I'm Mehedi Hassan - Web Designer",
+                  1000,
+                  "Hi, I'm Mehedi Hassan - Front-End Developer",
+                  1000,
+                  "Hi, I'm Mehedi Hassan - React JS Developer",
+                  1000,
+                ]}
+                speed={30}
+                deletionSpeed={50}
+                repeat={Infinity}
+              />
+              {/* Hi, I am Mehedi Hassan - Web Designer + Junior Web Developer */}
             </h1>
             <p>
               {`I'm a Junior Web Developer with a passion for front-end
