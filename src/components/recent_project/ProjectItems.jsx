@@ -1,4 +1,5 @@
 import { FaGithub, FaLink } from "react-icons/fa6";
+import Tilt from "react-parallax-tilt";
 import blissfulBookingMain from "../../assets/blissful-booking-main.png";
 import eduCollaborativeMain from "../../assets/edu-collaborative-home.png";
 import havenHouseMain from "../../assets/haven-house-main.png";
@@ -8,11 +9,13 @@ function ProjectItems() {
       <section className="py-8 md:py-10 lg:py-12">
         <div className="container grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           <div className="bg-main-bg p-6 rounded-xl space-y-3 ring-1 ring-ring-color">
-            <img
-              className="w-full h-[400px] object-fill"
-              src={eduCollaborativeMain}
-              alt=""
-            />
+            <Tilt>
+              <img
+                className="w-full h-[400px] object-fill"
+                src={eduCollaborativeMain}
+                alt=""
+              />
+            </Tilt>
             <h2 className="font-semibold text-2xl bg-gradient-main-bg text-transparent bg-clip-text">
               Education Collaborative Study Plateform
             </h2>

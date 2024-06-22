@@ -3,12 +3,14 @@ import Tilt from "react-parallax-tilt";
 function SkillTopicItem({ skillItem }) {
   return (
     <>
-      <div className="group text-center cursor-pointer my-transition space-y-3 text-primary font-semibold">
+      <div className="group text-center cursor-pointer my-transition space-y-3 text-primary font-semibold overflow-hidden">
         <Tilt
           perspective={600}
-          glareEnable={true}
           glareMaxOpacity={0.55}
           scale={1.06}
+          glareEnable={true}
+          glareColor="#0369a1"
+          glarePosition="all"
         >
           <div className="bg-main-bg p-6 md:p-8 rounded-xl flex flex-col justify-center items-center space-y-3 my-transition grayscale hover:grayscale-0 text-center ring-1 ring-ring-color">
             <img
