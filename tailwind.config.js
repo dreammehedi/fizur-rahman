@@ -13,7 +13,7 @@ export default {
     extend: {
       colors: {
         primary: "#0369a1",
-        "main-bg": "#f6f3fc",
+        "main-bg": "#eff9ff",
         "ring-color": "#f3effa",
       },
       backgroundImage: {
