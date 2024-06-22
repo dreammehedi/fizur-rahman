@@ -1,15 +1,15 @@
 import PropTypes from "prop-types";
-function Logo({ cls }) {
+function Logo() {
   return (
     <a href="/">
       <h4
-        className={`font-bold text-xl lg:text-[22px] my-transition text-primary cursor-pointer flex items-center gap-2`}
+        className={`font-bold text-xl lg:text-[22px] my-transition text-primary dark:text-white cursor-pointer flex items-center gap-2`}
       >
-        <img
+        {/* <img
           className={`${cls} w-20 h-auto object-cover rounded-full`}
           src="https://i.ibb.co/z4GdkLQ/mehedi-logo.png"
           alt=""
-        />
+        /> */}
         Mehedi Hassan
       </h4>
     </a>

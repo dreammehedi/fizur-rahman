@@ -8,7 +8,7 @@ function Hero() {
   return (
     <>
       {/* hero */}
-      <section className="my-1 pb-4 md:pb-6">
+      <section className="my-1 py-4 md:py-6">
         <div className="container grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-6 bg-main-bg p-6 md:p-8 lg:p-12 rounded-xl ring-1 ring-ring-color md:justify-center md:text-center lg:justify-normal lg:text-left items-center overflow-hidden">
           <Tilt perspective={800} glareMaxOpacity={0.55} scale={1.03}>
             <img

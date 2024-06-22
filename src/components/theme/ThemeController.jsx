@@ -4,7 +4,7 @@ import { MdDarkMode, MdLightMode } from "react-icons/md";
 function ThemeController() {
   // theme
   const [theme, setTheme] = useState("light");
-  console.log(theme);
+
   // toggle theme icon
   const [toggleThemeIcon, setToggleThemeIcon] = useState(true);
 
@@ -33,12 +33,12 @@ function ThemeController() {
   return (
     <button
       onClick={handleTheme}
-      className="cursor-pointer text-2xl bg-primary text-white p-2 rounded-xl"
+      className="cursor-pointer text-2xl dark:bg-white dark:text-primary bg-primary text-white p-2 rounded-xl"
     >
       {toggleThemeIcon ? (
-        <MdLightMode></MdLightMode>
-      ) : (
         <MdDarkMode></MdDarkMode>
+      ) : (
+        <MdLightMode></MdLightMode>
       )}
     </button>
   );

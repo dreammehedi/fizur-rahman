@@ -29,7 +29,7 @@ function Header() {
       <header
         className={`w-full ${
           sticky && "sticky top-0 shadow-lg shadow-primary/30"
-        } z-[999] bg-white my-transition`}
+        } z-[999] bg-white dark:bg-gray-900 my-transition`}
       >
         {/* navbar */}
         <nav
@@ -42,7 +42,7 @@ function Header() {
 
           {/* desktop menu */}
           <ul
-            className={`hidden lg:flex justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-primary text-[15px]`}
+            className={`hidden lg:flex justify-center items-center gap-4 md:gap-6 font-medium capitalize *:text-primary dark:*:text-white text-[15px]`}
           >
             <Menu></Menu>
           </ul>
@@ -79,7 +79,7 @@ function Header() {
               onClick={() => {
                 setMenu(!menu);
               }}
-              className="z-[99999] lg:hidden cursor-pointer text-2xl bg-primary text-white p-2 rounded-xl"
+              className="z-[99999] lg:hidden cursor-pointer text-2xl dark:bg-white dark:text-primary bg-primary text-white p-2 rounded-xl"
             >
               {menu ? <CgClose></CgClose> : <RiMenu3Line></RiMenu3Line>}
             </div>
