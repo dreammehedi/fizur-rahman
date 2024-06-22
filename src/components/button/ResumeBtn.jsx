@@ -1,7 +1,7 @@
 function ResumeBtn() {
   return (
     <>
-      <button className="resume-btn group hover:animate-pulse">
+      <button className="resume-btn group hover:animate-pulse !ring-1 !ring-white lg:!ring-0">
         <span>Resume</span>
         <div className="ml-1 transition group-hover:translate-x-1 group-hover:animate-bounce">
           <svg
