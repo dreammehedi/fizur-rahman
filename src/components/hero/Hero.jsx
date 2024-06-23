@@ -32,17 +32,16 @@ function Hero() {
                   1000,
                   "Hi, I'm Mehedi Hassan - React JS Developer",
                   1000,
+                  "Hi, I'm Mehedi Hassan - Junior MERN Stack Developer",
+                  1000,
                 ]}
                 speed={30}
                 deletionSpeed={50}
                 repeat={Infinity}
               />
-              {/* Hi, I am Mehedi Hassan - Web Designer + Junior Web Developer */}
             </h1>
             <p>
-              {`I'm a Junior Web Developer with a passion for front-end
-              development and UX design. I specialize in creating beautifully
-              simple and intuitive websites.`}
+              {`A versatile developer with expertise in web design, front-end development, and full-stack development using the MERN stack. I am passionate about creating responsive and user-friendly web applications using React.js. With a keen eye for design and a focus on improved user experience, I excel at turning complex problems into simple, beautiful, and intuitive solutions.`}
             </p>
             <div className="flex justify-start md:justify-center lg:justify-normal items-center gap-4">
               <HireMeBtn></HireMeBtn>
