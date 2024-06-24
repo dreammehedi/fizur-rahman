@@ -4,7 +4,7 @@ import ProjectItems from "./ProjectItems";
 function RecentProject() {
   return (
     <>
-      <section className="py-4 md:py-6">
+      <section className="py-4 md:py-6" id="projects">
         {/* recent title */}
         <SectionTitle
           title="Recent Project"

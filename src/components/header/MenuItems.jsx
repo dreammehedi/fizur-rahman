@@ -1,23 +1,23 @@
 const menuItems = [
   {
     name: "Skills",
-    id: "#skills",
+    id: "skills",
   },
   {
     name: "Projects",
-    id: "#projects",
+    id: "projects",
   },
   {
     name: "Works",
-    id: "#works",
+    id: "works",
   },
   {
     name: "Testimonials",
-    id: "#testimonials",
+    id: "testimonials",
   },
   {
     name: "Contact",
-    id: "#contact",
+    id: "contact",
   },
 ];
 export default menuItems;
