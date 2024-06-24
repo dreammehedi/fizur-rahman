@@ -4,7 +4,7 @@ import SkillsTopic from "./SkillsTopic";
 function Skills() {
   return (
     <>
-      <section id="skills" className="py-4 md:py-6">
+      <section className="py-4 md:py-6" id="skills">
         {/* skills title */}
         <SectionTitle
           title="My Skills"
