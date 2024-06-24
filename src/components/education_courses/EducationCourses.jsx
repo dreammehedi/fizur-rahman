@@ -52,7 +52,23 @@ function EducationCourses() {
                   <h5 className="text-[18px] text-gray-800 dark:text-gray-200">
                     Programming Hero
                   </h5>
-                  <p className="text-sm">January 2023 - Present</p>
+                  <p className="text-sm">December 2023 - June 2024</p>
+                  <span className="ring-1 ring-primary mr-auto px-4 py-2 rounded-full text-primary dark:text-white text-sm">
+                    Course Complete
+                  </span>
+                  <a
+                    href="https://drive.google.com/file/d/1Hvq0wFBYwmmmG_ulGrdqUU9vNqIUYmMp/view?usp=sharing"
+                    target="_blank"
+                  >
+                    <button className="group mr-auto project-tech-btn my-transition animate-none hover:animate-bounce">
+                      <span className="relative z-10 group-hover:text-white dark:text-white text-sm">
+                        See Certificate
+                      </span>
+                      <span className="absolute inset-0 overflow-hidden rounded-md">
+                        <span className="absolute left-0 aspect-square w-full origin-center translate-x-full rounded-full bg-primary transition-all duration-500 group-hover:-translate-x-0 group-hover:scale-150"></span>
+                      </span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
