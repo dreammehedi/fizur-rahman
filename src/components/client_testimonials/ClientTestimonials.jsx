@@ -42,7 +42,7 @@ function ClientTestimonials() {
                 >
                   <p className="font-medium">{testimonial?.feedback}</p>
                   <div className="flex items-center gap-3">
-                    <a href="" target="_blank">
+                    <a href={testimonial?.url} target="_blank">
                       <img
                         className="group-hover:scale-[1.08] my-transition group-hover:shadow-lg group-hover:shadow-primary/30 size-16 rounded-full object-cover ring-2 ring-primary/60 group-hover:ring-primary/30 hover:!scale-[1.5]"
                         src={testimonial?.userPhoto}
