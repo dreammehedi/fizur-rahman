@@ -7,15 +7,13 @@ function Menu({ setMenu }) {
     <>
       {menuItems.map((menuItem, ind) => {
         return (
-          <li
-            onClick={() => {
-              if (setMenu) {
-                setMenu(false);
-              }
-            }}
-            key={ind}
-          >
+          <li key={ind}>
             <Link
+              onClick={() => {
+                if (setMenu) {
+                  setMenu(false);
+                }
+              }}
               to={menuItem?.id}
               activeClass="text-black dark:text-cyan-500 font-semibold menu-list-active"
               spy={true}
