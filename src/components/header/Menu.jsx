@@ -6,7 +6,6 @@ function Menu({ setMenu }) {
   return (
     <>
       {menuItems.map((menuItem, ind) => {
-        console.log(menuItem.id);
         return (
           <li
             onClick={() => {
