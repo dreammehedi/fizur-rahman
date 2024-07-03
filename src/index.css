@@ -7,6 +7,15 @@
   p {
     @apply text-gray-700 dark:text-gray-300;
   }
+  ::-webkit-scrollbar {
+    @apply w-[10px];
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-main-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-t from-[rgba(3,105,161,1)] to-[#0fb8aa] rounded-full;
+  }
 }
 @layer components {
   .my-transition {
