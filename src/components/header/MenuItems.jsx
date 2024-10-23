@@ -3,14 +3,11 @@ const menuItems = [
     name: "Skills",
     id: "skills",
   },
-  {
-    name: "Projects",
-    id: "projects",
-  },
-  {
-    name: "Works",
-    id: "works",
-  },
+  // {
+  //   name: "Projects",
+  //   id: "projects",
+  // },
+
   {
     name: "Testimonials",
     id: "testimonials",

@@ -1,12 +1,10 @@
 import ClickToTop from "./components/click_to_top/ClickToTop";
 import ClientTestimonials from "./components/client_testimonials/ClientTestimonials";
 import Contact from "./components/contact/Contact";
-import EducationCourses from "./components/education_courses/EducationCourses";
 import Footer from "./components/footer/Footer";
 import FunFact from "./components/fun_fact/FunFact";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import RecentProject from "./components/recent_project/RecentProject";
 import Skills from "./components/skills/Skills";
 
 function App() {
@@ -16,8 +14,7 @@ function App() {
       <Hero></Hero>
       <FunFact></FunFact>
       <Skills></Skills>
-      <RecentProject></RecentProject>
-      <EducationCourses></EducationCourses>
+      {/* <RecentProject></RecentProject> */}
       <ClientTestimonials></ClientTestimonials>
       <Contact></Contact>
       <Footer></Footer>

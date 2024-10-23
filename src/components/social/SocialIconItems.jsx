@@ -1,17 +1,17 @@
 const SocialIconItems = [
   {
     title: "Facebook",
-    url: "https://www.facebook.com/profile.php?id=615548690562711",
+    url: "https://www.facebook.com/profile.php?id=61554022905488",
     icon: "FaFacebook",
   },
   {
     title: "Linkedin",
-    url: "https://www.linkedin.com/in/mehedi-hassan-miraj",
+    url: "#",
     icon: "FaLinkedin",
   },
   {
     title: "Github",
-    url: "https://github.com/dreammehedi",
+    url: "#",
     icon: "FaGithub",
   },
 ];

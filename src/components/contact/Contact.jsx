@@ -161,14 +161,13 @@ function Contact() {
               <div className="mt-8 flex flex-col space-y-2">
                 <span className="flex my-transition dark:text-white dark:hover:text-primary hover:text-primary  items-center gap-2">
                   <IoIosMail className="text-xl"></IoIosMail>{" "}
-                  dreammehedihassan@gmail.com
+                  fizurmia10@gmail.com
                 </span>
                 <span className="flex my-transition dark:text-white dark:hover:text-primary hover:text-primary  items-center gap-2">
-                  <FaPhone className="text-xl"></FaPhone> +8801830143234
+                  <FaPhone className="text-xl"></FaPhone> +8801796-450026
                 </span>
                 <span className="flex my-transition dark:text-white dark:hover:text-primary hover:text-primary items-center gap-2 ">
                   <IoLocation className="text-xl"></IoLocation>
-                  Mirzapur, Tangail <br />
                   Dhaka, Bangladesh
                 </span>
                 <div className="flex flex-wrap items-center gap-4 !text-sm">

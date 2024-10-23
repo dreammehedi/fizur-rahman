@@ -10,7 +10,7 @@ function Logo() {
           src="https://i.ibb.co/z4GdkLQ/mehedi-logo.png"
           alt=""
         /> */}
-        Mehedi Hassan
+        Fizur Rahman
       </h4>
     </a>
   );

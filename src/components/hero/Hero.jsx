@@ -1,6 +1,5 @@
 import Tilt from "react-parallax-tilt";
 import { TypeAnimation } from "react-type-animation";
-import heroImg from "../../assets/mehedi.jpg";
 import HireMeBtn from "../button/HireMeBtn";
 import HeroParticles from "../hero_particles/HeroParticles";
 import SocialIcon from "../social/SocialIcon";
@@ -15,7 +14,7 @@ function Hero() {
           <Tilt perspective={800} glareMaxOpacity={0.55} scale={1.03}>
             <img
               className="overflow-hidden cursor-pointer w-full h-auto md:max-w-[350px] md:h-[350px] md:mx-auto lg:h-auto lg:mx-0 rounded-xl md:rounded-full lg:rounded-xl object-cover"
-              src={heroImg}
+              src={""}
               alt=""
             />
           </Tilt>
@@ -24,15 +23,13 @@ function Hero() {
               <TypeAnimation
                 preRenderFirstString={true}
                 sequence={[
-                  "Hi, I'm Mehedi Hassan - ",
+                  "Hi, I'm Fizur Rahman - ",
                   300,
-                  "Hi, I'm Mehedi Hassan - Web Designer",
+                  "Hi, I'm Fizur Rahman - App Developer",
                   1000,
-                  "Hi, I'm Mehedi Hassan - Front-End Developer",
+                  "Hi, I'm Fizur Rahman - Mobile Application Developer",
                   1000,
-                  "Hi, I'm Mehedi Hassan - React JS Developer",
-                  1000,
-                  "Hi, I'm Mehedi Hassan - Junior MERN Stack Developer",
+                  "Hi, I'm Fizur Rahman - Flutter Application Developer",
                   1000,
                 ]}
                 speed={30}
@@ -41,7 +38,7 @@ function Hero() {
               />
             </h1>
             <p>
-              {`A versatile developer with expertise in web design, front-end development, and full-stack development using the MERN stack. I am passionate about creating responsive and user-friendly web applications using React.js. With a keen eye for design and a focus on improved user experience, I excel at turning complex problems into simple, beautiful, and intuitive solutions.`}
+              {`Fizur Rahman is a mobile application developer specializing in creating user-friendly apps for iOS and Android. Proficient in Swift, Kotlin, and Java, he is dedicated to delivering high-quality mobile solutions and enhancing user experiences. Fizur excels in all phases of app development and actively stays updated on industry trends. Outside of coding, he enjoys exploring new technologies and contributing to open-source projects.`}
             </p>
             <div className="flex justify-start md:justify-center lg:justify-normal items-center gap-4">
               <HireMeBtn></HireMeBtn>

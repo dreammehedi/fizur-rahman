@@ -1,22 +1,22 @@
 export const frontEndSkillsTopicData = [
   {
-    icon: "https://i.ibb.co/Ns0mvQf/html5.png",
-    title: "HTML5",
+    icon: "https://cdn.prod.website-files.com/5ee12d8d7f840543bde883de/5ef3a1148ac97166a06253c1_flutter-logo-white-inset.svg",
+    title: "Flutter",
     skillsPercentage: "92%",
   },
   {
-    icon: "https://i.ibb.co/1GzSwm8/css3.png",
-    title: "CSS3",
+    icon: "https://dart.dev/assets/img/logo/logo-white-text.svg",
+    title: "Dart",
     skillsPercentage: "78%",
   },
   {
-    icon: "https://i.ibb.co/2ZfCjX0/tailwindcss.png",
-    title: "Tailwind CSS",
+    icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRNtKP1hIx3oXN8rw97Ws6h4Zlnpo3XNtZYm6oZAw8_xtZ2NlzjiGeXFXzqfm06bgzts&usqp=CAU",
+    title: "River Pod",
     skillsPercentage: "82%",
   },
   {
-    icon: "https://i.ibb.co/L5LMsPQ/bootstrap.png",
-    title: "Bootstrap",
+    icon: "https://api.intopros.com/uploads/2023-03/unauth-1679399215800-5304be64bb8949f0b18e71b5f94488c0.png",
+    title: "Getx",
     skillsPercentage: "68%",
   },
   {
@@ -24,41 +24,11 @@ export const frontEndSkillsTopicData = [
     title: "Material UI",
     skillsPercentage: "58%",
   },
-  {
-    icon: "https://i.ibb.co/VBJgmgv/javascript.png",
-    title: "Javascript",
-    skillsPercentage: "85%",
-  },
-  {
-    icon: "https://i.ibb.co/sW5JBYT/reactjs.png",
-    title: "React JS",
-    skillsPercentage: "72%",
-  },
-];
 
-export const backEndSkillsTopicData = [
   {
-    icon: "https://i.ibb.co/g6D3GsT/nodejs.png",
-    title: "Node JS",
-    skillsPercentage: "60%",
-  },
-  {
-    icon: "https://i.ibb.co/wJDDjpc/expressjs.png",
-    title: "Express JS",
-    skillsPercentage: "68%",
-  },
-  {
-    icon: "https://i.ibb.co/WGVjtbX/mongodb.png",
-    title: "MongoDB",
-    skillsPercentage: "84%",
-  },
-];
-
-export const otherSkillsTopicData = [
-  {
-    icon: "https://i.ibb.co/Zd51cmf/npm.png",
-    title: "npm",
-    skillsPercentage: "70%",
+    icon: "https://developer.android.com/static/studio/images/android-studio-stable.svg",
+    title: "Android Studio",
+    skillsPercentage: "90%",
   },
   {
     icon: "https://i.ibb.co/gJNnM1S/git.png",
@@ -78,16 +48,6 @@ export const otherSkillsTopicData = [
   {
     icon: "https://i.ibb.co/sQ6mHJw/figma.png",
     title: "Figma",
-    skillsPercentage: "60%",
-  },
-  {
-    icon: "https://i.ibb.co/wpkXMh2/adobe-photoshop.png",
-    title: "Adobe Photoshop",
-    skillsPercentage: "65%",
-  },
-  {
-    icon: "https://i.ibb.co/mG9Psfn/pixso.png",
-    title: "Pixso",
-    skillsPercentage: "55%",
+    skillsPercentage: "40%",
   },
 ];

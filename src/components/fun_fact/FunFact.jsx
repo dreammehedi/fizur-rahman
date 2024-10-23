@@ -3,22 +3,22 @@ const funFactData = [
   {
     icon: "CiTrophy",
     title: "Job Achievement",
-    count: "28%",
+    count: "35%",
   },
   {
     icon: "CiCalendar",
     title: "Years of Experience",
-    count: "2+",
+    count: "1.5+",
   },
   {
     icon: "CiFaceSmile",
     title: "Happy Clients",
-    count: "20+",
+    count: "8+",
   },
   {
     icon: "CiFloppyDisk",
     title: "Project Completed",
-    count: "35+",
+    count: "14+",
   },
 ];
 

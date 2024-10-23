@@ -56,7 +56,8 @@ function Header() {
               <Menu setMenu={setMenu}></Menu>
               {/* resume button */}
               <a
-                href="https://drive.google.com/file/d/1skAkbb5Wd4xI-hogB5nupKO_z8FLUVK3/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1griYqHLMNeuBCaeXy-D1aQ-nei9SwDno/view?usp=sharing"
+                target="_blank"
                 download={true}
                 className=""
               >
@@ -68,7 +69,8 @@ function Header() {
           <div className="flex items-center gap-4">
             {/* resume button */}
             <a
-              href="https://drive.google.com/file/d/1skAkbb5Wd4xI-hogB5nupKO_z8FLUVK3/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1griYqHLMNeuBCaeXy-D1aQ-nei9SwDno/view?usp=sharing"
+              target="_blank"
               download={true}
               className="hidden lg:inline-block"
             >

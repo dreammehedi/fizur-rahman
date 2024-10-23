@@ -8,8 +8,7 @@ function Skills() {
         {/* skills title */}
         <SectionTitle
           title="My Skills"
-          desc="I transform your ideas and wishes into unique web projects that
-          inspire both you and your customers."
+          desc="As a Flutter developer, I bring your ideas to life with cross-platform mobile apps that deliver seamless performance, beautiful interfaces, and native-like experiences on both iOS and Android."
         ></SectionTitle>
         {/* skills topic */}
         <SkillsTopic></SkillsTopic>
